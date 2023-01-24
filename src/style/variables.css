@@ -1,0 +1,24 @@
+:root {
+  --paper-light: #ffffff;
+  --paper-dark: #424242;
+  --default-light: #fafafa;
+  --default-dark: #303030;
+
+  --primary-main: #651fff;
+  --primary-light: #d1c4e9;
+  --primary-dark: #311b92;
+
+  --secondary-main: #9c27b0;
+  --secondary-light: #e1bee7;
+  --secondary-dark: #4a148c;
+
+  --text-primary: rgba(0, 0, 0, 0.87);
+  --text-secondary: rgba(0, 0, 0, 0.54);
+  --text-disabled: rgba(0, 0, 0, 0.38);
+  --text-field: rgba(0, 0, 0, 0.42);
+  --text-secondary-dark-mode: rgba(255, 255, 255, 0.7);
+
+  --en-font : "Lato";
+  --en-font-thin : "Lato-Thin";
+  --fa-font : "Vazir";
+}

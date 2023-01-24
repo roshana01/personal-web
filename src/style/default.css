@@ -1,0 +1,10 @@
+@import url("./variables.css");
+@import url("./font.css");
+@import url("./reset.css");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--en-font), var(--fa-font) !important;
+}
