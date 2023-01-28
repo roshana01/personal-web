@@ -1,7 +1,10 @@
 import React from 'react'
+import Landing from './Components/Landing/Landing'
 
 export default function App() {
   return (
-    <h1>سلام ۱۲۳  hello</h1>
+    <div>
+      <Landing />
+    </div>
   )
 }
