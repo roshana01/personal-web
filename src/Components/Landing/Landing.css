@@ -1,0 +1,99 @@
+
+.landing {
+  margin-left: 10px;
+  position: relative;
+}
+.landing-container {
+  margin-left: 10rem;
+  display: flex;
+  gap: 20px;
+}
+/* start meno */
+.landing-navbar {
+  margin-top: 10px;
+}
+.landing-logo {
+  width: 35px;
+  height: 33px;
+  border-radius: 10px;
+  margin: 10px 7px;
+}
+.landing-list {
+  background-color: var(--primary-dark);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+}
+.landing-list--item {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.landing-list-icon {
+  font-size: 20px;
+  color: var(--primary-light);
+}
+/* fishing meno */
+
+.landing-banner {
+  width: 100%;
+  background-image: url("/public/images/Landing-background.png");
+  background-size: cover;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.landing-banner-icon {
+  position: absolute;
+  top: 55px;
+  right: 76px;
+  color: var(--paper-light);
+  font-size: 20px;
+}
+.landing-banner__rectangle {
+  width: 500px;
+  background: linear-gradient(141.51deg, #9b27b0b3 -18.34%, #661fffb3 66.03%);
+  mix-blend-mode: normal;
+  /* opacity: 0.79; */
+  border-radius: 23px;
+  margin-left: 3.5rem;
+  padding:17px 29px 30px;
+  position: relative;
+}
+.landing-banner-content h2 {
+  color: var(--paper-light);
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.landing-banner-content h1 {
+  font-size: 2.1rem;
+  color: var(--paper-light);
+  padding: 15px 0;
+}
+.landing-banner-content p {
+  color: var(--paper-light);
+  font-family: var(--en-font-thin);
+  font-weight: 500 !important;
+  line-height: 22px;
+  text-align: justify;
+  width: 80%;
+}
+
+.landing-banner-social {
+  margin-top: 20px;
+  display: flex;
+  gap: 18px;
+}
+
+.landing-profile{
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  background-color: antiquewhite;
+  z-index: 2;
+  bottom: 60px;
+  right: 170px;
+}
