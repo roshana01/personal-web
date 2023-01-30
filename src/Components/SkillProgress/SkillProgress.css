@@ -1,0 +1,29 @@
+.skill{
+    margin: 40px 0;
+}
+
+.skill-title{
+    display: flex;
+    gap: 8px;
+    margin-top: 24px;
+}
+
+.skill-title h3{
+    color:var(--default-light);
+    font-size: .9rem;
+    font-weight: 500;
+}
+.skill-progress-container{
+    width: 280px;
+    height: 5px;
+    background-color: var( --paper-dark);
+    margin-top: 12px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.skill-progress-range{
+    position: absolute;
+    height: 6px;
+    background: linear-gradient(141.51deg, #9b27b0b3 -18.34%, #661fffb3 66.03%);
+}
