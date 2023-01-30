@@ -1,0 +1,35 @@
+.counter-sercices--contaeiner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.counter-services {
+  width: 70%;
+  margin-top: 40px;
+  background-color: var(--paper-dark);
+  border-radius: 15px;
+  border: 2px solid var(--primary-main);
+  z-index: 5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 20px;
+}
+.services-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.services-icon span {
+  font-size: 2.3rem;
+  color: var(--paper-light);
+}
+.counter-services--count p {
+  display: flex;
+  color: var(--paper-light);
+  align-items: center;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  align-items: center;
+  justify-content: center;
+}
