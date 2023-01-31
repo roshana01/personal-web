@@ -1,0 +1,109 @@
+.about {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  padding-right: 8rem;
+}
+
+.about-avatar {
+  margin-top: -5rem;
+  z-index: 3;
+  /* background: linear-gradient(141.51deg, #9b27b0ba -18.34%, #661fff96 66.03%); */
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+.about-avatar--img {
+  width: 140px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+
+}
+.about-resume {
+  display: flex;
+  align-self: center;
+  margin-top: 90px;
+  gap: 60px;
+  position: relative;
+}
+
+.resume-title {
+  margin-bottom: 10px;
+  color: var(--primary-main);
+}
+.resume-history-experience {
+  /* padding: 15px; */
+  margin-bottom: 35px;
+  position: relative;
+}
+.resume-history-experience h3 {
+  font-size: 0.9rem;
+  color: var(--default-light);
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.resume-history-experience p {
+  font-size: 0.7rem;
+  color: var(--text-secondary-dark-mode);
+}
+.resume-history-experience span {
+  font-size: 0.6rem;
+  color: var(--text-secondary-dark-mode);
+}
+.about-avatar::after{
+  content: "";
+  width: 130px;
+  height: 190px;
+  border: 2px solid #661fff ;
+  border-radius: 15px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+
+}
+.about-avatar::before{
+  content: "";
+  content: "";
+  width: 2px;
+  height: 42px;
+  position: absolute;
+  bottom: -78px;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  background: linear-gradient(141.51deg, #9b27b0 -18.34%, #661fff 66.03%);
+
+}
+.about-resume::before {
+  content: "";
+  width: 160%;
+  height: 2px;
+  position: absolute;
+  top: -35px;
+  left: -30px;
+  background: linear-gradient(141.51deg, #9b27b0 -18.34%, #661fff 66.03%);
+}
+.about-resume::after {
+  content: "";
+  width: 2px;
+  height: 140%;
+  position: absolute;
+  top: -35px;
+  left: -30px;
+  background: linear-gradient(141.51deg, #9b27b0 -18.34%, #661fff 66.03%);
+}
+
+.resume-history-experience::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: linear-gradient(141.51deg, #9b27b0 -18.34%, #661fff 66.03%);
+  position: absolute;
+  top: 50%;
+  left: -29px;
+  transform: translate(-50% , -50%);
+  border: 4px solid var(--default-dark) ;
+  z-index: 2;
+}
