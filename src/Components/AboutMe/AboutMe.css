@@ -31,10 +31,13 @@
 .resume-title {
   margin-bottom: 10px;
   color: var(--primary-main);
+  text-align: center;
 }
 .resume-history-experience {
-  /* padding: 15px; */
-  margin-bottom: 35px;
+    display: flex;
+    margin-top: 45px;
+    align-items: end;
+    padding-left: 30px;
   position: relative;
 }
 .resume-history-experience h3 {
@@ -56,7 +59,7 @@
   width: 130px;
   height: 190px;
   border: 2px solid #661fff ;
-  border-radius: 15px;
+  border-radius: 8px;
   position: absolute;
   top: 60%;
   left: 50%;
@@ -77,7 +80,7 @@
 }
 .about-resume::before {
   content: "";
-  width: 174%;
+  width: 180%;
   height: 2px;
   position: absolute;
   top: -35px;
@@ -87,7 +90,7 @@
 .about-resume::after {
   content: "";
   width: 2px;
-  height: 140%;
+  height: 130%;
   position: absolute;
   top: -35px;
   left: -30px;
