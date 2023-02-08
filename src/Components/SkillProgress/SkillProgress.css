@@ -1,29 +1,76 @@
-.skill{
-    margin: 40px 0;
+.skill {
+  display: grid;
+  grid-template-columns: 100px auto;
+  align-items: center;
+  gap: 0 50px;
+  margin: 40px 0;
+  position: relative;
+  cursor: pointer;
 }
 
-.skill-title{
-    display: flex;
-    gap: 8px;
-    margin-top: 24px;
+.skill-title {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+  position: relative;
 }
 
-.skill-title h3{
-    color:var(--default-light);
-    font-size: .9rem;
-    font-weight: 500;
+.skill-title h3 {
+  color: var(--default-light);
+  font-size: 1rem;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: 0.4s;
 }
-.skill-progress-container{
-    width: 280px;
-    height: 5px;
-    background-color: var( --paper-dark);
-    margin-top: 12px;
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
+
+.skill-percent {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  opacity: 0;
+  transition: 0.4s;
+  position: absolute;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
 }
-.skill-progress-range{
-    position: absolute;
-    height: 6px;
-    background: linear-gradient(141.51deg, #9b27b0b3 -18.34%, #661fffb3 66.03%);
+.skill-progress-container {
+  width: 280px;
+  height: 5px;
+  background-color: var(--paper-dark);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.skill-progress-range {
+  position: absolute;
+  height: 6px;
+  background: linear-gradient(141.51deg, #9b27b0b3 -18.34%, #661fffb3 66.03%);
+  border-radius: 8px;
+  transition: width 2s ease-in;
+}
+
+.skill::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: linear-gradient(141.51deg, #9b27b0 -18.34%, #661fff 66.03%);
+  position: absolute;
+  top: 50%;
+  left: -29px;
+  transform: translate(-50%, -50%);
+  border: 4px solid var(--default-dark);
+  z-index: 2;
+}
+
+.skill:hover .skill-title h3 {
+  transform: translateX(-10px);
+  opacity: 0;
+}
+.skill:hover .skill-percent {
+  transform: translate(-15px, -50%);
+  opacity: 1;
 }
