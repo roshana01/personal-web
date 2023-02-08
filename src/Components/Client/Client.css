@@ -1,0 +1,60 @@
+.client-section {
+  /* margin-top: 50px; */
+  padding: 10px 30px;
+  margin: 50px auto;
+  width: 91%;
+}
+.client-box {
+  background: linear-gradient(141.51deg, #9b27b0b3 -18.34%, #661fffb3 66.03%);
+  border-radius: 30px;
+  padding: 35px 25px;
+}
+.client-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.client-title h1 {
+  color: var(--paper-light);
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+.client-title .service-circle {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: var(--primary-light);
+  margin-top: 10px;
+}
+.client-container {
+  display: flex;
+  align-items: center;
+}
+.map-img {
+  flex: 2;
+}
+.map-img img {
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.hire-info {
+  color: var(--paper-light);
+  flex: 2;
+  padding: 10px;
+}
+.hire-info p {
+  margin: 20px 0;
+  text-align: initial;
+  line-height: 28px;
+}
+.hire-info button {
+  border: none;
+  background-color: var(--primary-dark);
+  color: var(--paper-light);
+  padding: 8px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
