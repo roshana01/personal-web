@@ -1,0 +1,45 @@
+.footer {
+  width: 70%;
+  border-top: 2px dotted var(--paper-dark);
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.footer-name,
+.footer-relationship {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-name h1{
+    font-size: 1.4rem;
+    color: var(--default-light);
+    /* padding: 10px 0; */
+}
+.footer-name p{
+    font-size: 1rem;
+    color: var(--text-secondary-dark-mode);
+    font-weight: 500;
+    line-height: 25px;
+}
+.footer--socal-madia{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 16px;
+}
+.footer-relationship{
+    font-size: 1rem;
+    color: var(--text-secondary-dark-mode);
+    font-weight: 500;
+    /* margin-top: 20px; */
+    line-height: 20px;
+}
