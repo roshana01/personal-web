@@ -77,7 +77,7 @@
 }
 .about-resume::before {
   content: "";
-  width: 160%;
+  width: 174%;
   height: 2px;
   position: absolute;
   top: -35px;
